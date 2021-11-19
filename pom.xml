@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>PESI Technologies</name>
+		<url>http://pesitechnologies.com/</url>
 	</organization>
 
 	<properties>
@@ -93,7 +93,7 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
+<!--	<distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
@@ -108,7 +108,7 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
-	
+-->	
 	<build>
 		<finalName>maven-web-application</finalName>
 		
