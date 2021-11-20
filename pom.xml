@@ -108,7 +108,22 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
--->	
+-->
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>PESI Technologies Releases Nexus Repository</name>
+	      <url>http://3.22.70.141:8081/repository/Sample-MavenWebApp-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>PESI Technologies Snapshot Nexus Repository </name>
+	      <url>http://3.22.70.141:8081/repository/Sample-MavenWebApp-Snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	<build>
 		<finalName>maven-web-application</finalName>
 		
